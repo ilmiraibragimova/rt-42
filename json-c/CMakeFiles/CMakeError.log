@@ -1,0 +1,232 @@
+Determining if the include file endian.h exists failed with the following output:
+Change Dir: /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_718e5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_718e5.dir/build.make CMakeFiles/cmTC_718e5.dir/build
+Building C object CMakeFiles/cmTC_718e5.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GNU_SOURCE  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE -o CMakeFiles/cmTC_718e5.dir/CheckIncludeFile.c.o -c /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'endian.h' file not found
+#include <endian.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_718e5.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_718e5/fast] Error 2
+
+
+
+Determining if the include file sys/random.h exists failed with the following output:
+Change Dir: /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d898/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5d898.dir/build.make CMakeFiles/cmTC_5d898.dir/build
+Building C object CMakeFiles/cmTC_5d898.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GNU_SOURCE  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE -o CMakeFiles/cmTC_5d898.dir/CheckIncludeFile.c.o -c /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/random.h:36:21: error: expected parameter declarator
+    __OSX_AVAILABLE(10.12) __IOS_AVAILABLE(10.0) __TVOS_AVAILABLE(10.0) __WATCHOS_AVAILABLE(3.0)
+                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/random.h:36:21: error: expected ')'
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/random.h:36:20: note: to match this '('
+    __OSX_AVAILABLE(10.12) __IOS_AVAILABLE(10.0) __TVOS_AVAILABLE(10.0) __WATCHOS_AVAILABLE(3.0)
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/random.h:36:28: error: expected function body after function declarator
+    __OSX_AVAILABLE(10.12) __IOS_AVAILABLE(10.0) __TVOS_AVAILABLE(10.0) __WATCHOS_AVAILABLE(3.0)
+                           ^
+3 errors generated.
+make[1]: *** [CMakeFiles/cmTC_5d898.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_5d898/fast] Error 2
+
+
+
+Determining if the _isnan exist failed with the following output:
+Change Dir: /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6eeb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f6eeb.dir/build.make CMakeFiles/cmTC_f6eeb.dir/build
+Building C object CMakeFiles/cmTC_f6eeb.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GNU_SOURCE  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE -o CMakeFiles/cmTC_f6eeb.dir/CheckSymbolExists.c.o -c /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_isnan'
+  return ((int*)(&_isnan))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f6eeb.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_f6eeb/fast] Error 2
+
+
+File /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _isnan
+  return ((int*)(&_isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _finite exist failed with the following output:
+Change Dir: /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35274/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_35274.dir/build.make CMakeFiles/cmTC_35274.dir/build
+Building C object CMakeFiles/cmTC_35274.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GNU_SOURCE  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE -o CMakeFiles/cmTC_35274.dir/CheckSymbolExists.c.o -c /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_finite'
+  return ((int*)(&_finite))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_35274.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_35274/fast] Error 2
+
+
+File /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _finite
+  return ((int*)(&_finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _doprnt exist failed with the following output:
+Change Dir: /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f0ba/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4f0ba.dir/build.make CMakeFiles/cmTC_4f0ba.dir/build
+Building C object CMakeFiles/cmTC_4f0ba.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GNU_SOURCE  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE -o CMakeFiles/cmTC_4f0ba.dir/CheckSymbolExists.c.o -c /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_doprnt'; did you mean 'fdopen'?
+  return ((int*)(&_doprnt))[argc];
+                  ^~~~~~~
+                  fdopen
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/stdio.h:210:7: note: 'fdopen' declared here
+FILE    *fdopen(int, const char *) __DARWIN_ALIAS_STARTING(__MAC_10_6, __IPHONE_2_0, __DARWIN_ALIAS(fdopen));
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4f0ba.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_4f0ba/fast] Error 2
+
+
+File /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _doprnt
+  return ((int*)(&_doprnt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the uselocale exist failed with the following output:
+Change Dir: /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d929d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d929d.dir/build.make CMakeFiles/cmTC_d929d.dir/build
+Building C object CMakeFiles/cmTC_d929d.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GNU_SOURCE  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE -o CMakeFiles/cmTC_d929d.dir/CheckSymbolExists.c.o -c /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'uselocale'; did you mean 'setlocale'?
+  return ((int*)(&uselocale))[argc];
+                  ^~~~~~~~~
+                  setlocale
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/locale.h:53:8: note: 'setlocale' declared here
+char            *setlocale(int, const char *);
+                 ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d929d.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_d929d/fast] Error 2
+
+
+File /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef uselocale
+  return ((int*)(&uselocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAS_GNU_WARNING_LONG failed with the following output:
+Change Dir: /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_021ee/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_021ee.dir/build.make CMakeFiles/cmTC_021ee.dir/build
+Building C object CMakeFiles/cmTC_021ee.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAS_GNU_WARNING_LONG -D_GNU_SOURCE  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE -o CMakeFiles/cmTC_021ee.dir/src.c.o -c /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/src.c
+/Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/src.c:3:9: warning: missing terminating '"' character [-Winvalid-pp-token]
+__asm__(".section .gnu.json_object_get
+        ^
+/Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/src.c:3:9: error: expected string literal in 'asm'
+/Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/src.c:5:7: warning: missing terminating '"' character [-Winvalid-pp-token]
+        .text");
+             ^
+/Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/src.c:6:38: error: expected ';' after top-level asm block
+int main(int c, char *v) { return 0;}
+                                     ^
+                                     ;
+2 warnings and 2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_021ee.dir/src.c.o] Error 1
+make: *** [cmTC_021ee/fast] Error 2
+
+
+Source file was:
+
+extern void json_object_get();
+__asm__(".section .gnu.json_object_get
+	.ascii "Please link against libjson-c instead of libjson"
+	.text");
+int main(int c, char *v) { return 0;}
+
+Performing C SOURCE FILE Test BSYMBOLIC_WORKS failed with the following output:
+Change Dir: /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3157a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3157a.dir/build.make CMakeFiles/cmTC_3157a.dir/build
+Building C object CMakeFiles/cmTC_3157a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DBSYMBOLIC_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE -o CMakeFiles/cmTC_3157a.dir/src.c.o -c /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3157a
+/Users/ilmira/.brew/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3157a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3157a.dir/src.c.o -o cmTC_3157a  -lm -Wl,-Bsymbolic-functions 
+ld: unknown option: -Bsymbolic-functions
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3157a] Error 1
+make: *** [cmTC_3157a/fast] Error 2
+
+
+Source file was:
+
+	int main (void)
+	{
+	  return 0;
+	}
+	
+Performing C SOURCE FILE Test VERSION_SCRIPT_WORKS failed with the following output:
+Change Dir: /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_345cb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_345cb.dir/build.make CMakeFiles/cmTC_345cb.dir/build
+Building C object CMakeFiles/cmTC_345cb.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DVERSION_SCRIPT_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE -o CMakeFiles/cmTC_345cb.dir/src.c.o -c /Users/ilmira/Desktop/json-c/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_345cb
+/Users/ilmira/.brew/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_345cb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_345cb.dir/src.c.o -o cmTC_345cb  -lm -Wl,--version-script,/Users/ilmira/Desktop/json-c/check-version-script.sym 
+ld: unknown option: --version-script
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_345cb] Error 1
+make: *** [cmTC_345cb/fast] Error 2
+
+
+Source file was:
+
+	int main (void)
+	{
+	  return 0;
+	}
+	

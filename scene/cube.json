@@ -1,0 +1,55 @@
+{
+  "Cam": {
+    "point": [
+      -5,
+      5,
+      -20
+    ],
+    "angle": [
+      10,
+      10,
+      10
+    ]
+  },
+  "Lights": {
+    "light": {
+      "type": "ambient",
+      "intensity": 0.2,
+      "point": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    },
+    "light1": {
+      "type": "point",
+      "intensity": 0.8,
+      "point": [
+        0,
+        0,
+        -20
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "Cubes": {
+    "cube": {
+      "radius": 10,
+      "color: [red, green, blue]": [
+        0,
+        255,
+        0
+      ],
+      "specular": 1000
+    }
+  }
+}

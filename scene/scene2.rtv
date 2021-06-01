@@ -1,0 +1,84 @@
+cam:
+    point-x: 0
+    point-y: 0
+    point-z: -20
+    angle-x: 0
+    angle-y: 0
+    angle-z: 0
+light:
+    light-type: ambient
+    intensity: 20
+    point-x: 0
+    point-y: 0
+    point-z: 0
+    direction-x: 0
+    direction-y: 0
+    direction-z: 0
+light:
+    light-type: point
+    intensity: 60
+    point-x: 1
+    point-y: -5
+    point-z: -10
+    direction-x: 0
+    direction-y: 0
+    direction-z: 0
+cylinder:
+    point-x: -2
+    point-y: 0
+    point-z: 8
+    radius: 5
+    rot-x: 0
+    rot-y: 90
+    rot-z: 0
+    red: 255
+    green: 0
+    blue: 0
+    specular: 500
+cylinder:
+    point-x: 0
+    point-y: 0
+    point-z: 8
+    radius: 5
+    rot-x: 1
+    rot-y: 0
+    rot-z: 0
+    red: 255
+    green: 255
+    blue: 255
+    specular: 500
+cylinder:
+    point-x: 0
+    point-y: -2
+    point-z: 8
+    radius: 5
+    rot-x: 1
+    rot-y: 0
+    rot-z: 0
+    red: 255
+    green: 255
+    blue: 255
+    specular: 500
+cylinder:
+    point-x: 0
+    point-y: -4
+    point-z: 8
+    radius: 5
+    rot-x: 1
+    rot-y: 0
+    rot-z: 0
+    red: 255
+    green: 255
+    blue: 255
+    specular: 500
+sphere:
+    point-x: 0
+    point-y: -3
+    point-z: 24
+    radius: 10
+    red: 50
+    green: 150
+    blue: 240
+    specular: 500
+    transperency: 4
+    reflect: 0

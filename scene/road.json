@@ -1,0 +1,565 @@
+{
+  "Cam": {
+    "point": [
+      -5,
+      0,
+      -70
+    ],
+    "angle": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Lights": {
+    "light": {
+      "type": "ambient",
+      "intensity": 0.8,
+      "point": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "Planes": {
+    "plane2": {
+      "point": [
+        0,
+        -1,
+        25
+      ],
+      "rot": [
+        0,
+        1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        0,
+        0,
+        255
+      ],
+      "reflection": 0,
+      "specular": -1,
+      "texture": {
+        "flag": 3,
+        "tex height": 1,
+        "tex wight": 1,
+        "tex col": 0,
+        "path": 17
+      }
+    },
+    "plane3": {
+      "point": [
+        0,
+        -1,
+        50
+      ],
+      "rot": [
+        0,
+        0,
+        1
+      ],
+      "specular": 1000,
+      "color: [red, green, blue]": [
+        255,
+        255,
+        255
+      ],
+      "reflection": 0,
+      "texture": {
+        "flag": 3,
+        "tex height": 0.3,
+        "tex wight": 0.5,
+        "path": 23
+      }
+    }
+  },
+  "Cones": {
+    "cone": {
+      "point": [
+        0,
+        5,
+        -30
+      ],
+      "radius": 40,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        255,
+        0,
+        0
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 1,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone1": {
+      "point": [
+        0,
+        5,
+        -50
+      ],
+      "radius": 40,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        255,
+        0,
+        0
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 1,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone2": {
+      "point": [
+        0,
+        5,
+        -10
+      ],
+      "radius": 40,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        255,
+        0,
+        0
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 1,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone3": {
+      "point": [
+        0,
+        5,
+        20
+      ],
+      "radius": 80,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone4": {
+      "point": [
+        -8,
+        5,
+        20
+      ],
+      "radius": 100,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone5": {
+      "point": [
+        -12,
+        5,
+        20
+      ],
+      "radius": 80,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone6": {
+      "point": [
+        -20,
+        5,
+        20
+      ],
+      "radius": 100,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone7": {
+      "point": [
+        -30,
+        5,
+        20
+      ],
+      "radius": 60,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone8": {
+      "point": [
+        -34,
+        5,
+        20
+      ],
+      "radius": 120,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone9": {
+      "point": [
+        -40,
+        5,
+        20
+      ],
+      "radius": 80,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone10": {
+      "point": [
+        -48,
+        5,
+        20
+      ],
+      "radius": 100,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone11": {
+      "point": [
+        10,
+        5,
+        20
+      ],
+      "radius": 100,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone12": {
+      "point": [
+        18,
+        5,
+        20
+      ],
+      "radius": 100,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone13": {
+      "point": [
+        25,
+        5,
+        20
+      ],
+      "radius": 100,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone14": {
+      "point": [
+        30,
+        5,
+        20
+      ],
+      "radius": 80,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    },
+    "cone15": {
+      "point": [
+        38,
+        5,
+        20
+      ],
+      "radius": 100,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "max": 9,
+      "min": -1,
+      "is_limit": 1,
+      "limit": [0, 0, 0],
+      "size": 10,
+      "texture": {
+        "flag": 0,
+        "tex height": 10,
+        "tex wight": 10
+      }
+    }
+  }
+}

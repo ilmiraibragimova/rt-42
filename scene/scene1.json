@@ -1,0 +1,119 @@
+{
+"Cam":
+    {
+      "point": [0,0,-60],
+      "angle": [0,0,0]
+    },
+"Lights":
+        {
+        "light":
+            {
+            "type":"ambient",
+            "intensity": 0.1,
+            "point": [0,0,0],
+            "direction": [0, 0, 0]
+            },
+        "light1":
+            {
+             "type": "point",
+             "intensity": 0.3,
+             "point": [0, 0, -60],
+             "direction": [0, 0, 0]
+            },
+        "light2":
+             {
+              "type": "point",
+              "intensity": 0.3,
+              "point": [40, 10, -60],
+              "direction": [0, 0, 0]
+              },
+        "light3":
+               {
+               "type": "point",
+               "intensity": 0.3,
+               "point": [10, 6, -60],
+               "direction": [0, 0, 0]
+               }
+        },
+  "Planes":
+      {
+        "plane3":
+                  {
+                  "point":[0, 0, -50],
+                  "rot": [0, 0, 1],
+                  "specular": -1,
+                  "color: [red, green, blue]": [0, 110, 100],
+                  "reflection": 0,
+                  "texture":
+                      {
+                      "flag": 2,
+                      "tex height": 10,
+                      "tex wight": 15
+                      }
+                  },
+                  "plane1":
+                           {
+                           "point":[-2, 3, 25],
+                           "rot": [1,0,0],
+                           "color: [red, green, blue]": [0, 110, 100],
+                           "specular": -1,
+                           "transperency": 0,
+                           "reflection": 0,
+                           "texture":
+                                   {
+                                   "flag": 2,
+                                   "tex height": 200,
+                                   "tex wight": 50
+                                   }
+                           },
+                      "plane2":
+                          {
+                          "point":[0, -1, 25],
+                          "rot": [0, 1, 0],
+                          "color: [red, green, blue]": [0, 0, 0],
+                          "reflection": 0.6,
+                          "specular": -1,
+                          "texture":
+                                  {
+                                  "flag": 0,
+                                  "tex height": 2,
+                                  "tex wight": 2
+                                  }
+                          }
+
+          },
+"Spheres":
+      {
+          "sphere1":
+          {
+          "point":[0, 0, -53],
+          "radius": 1,
+          "color: [red, green, blue]": [255, 0, 100],
+          "specular": 1000,
+          "transperency": 0,
+          "reflection": 0.,
+          }
+          }
+}
+
+"Spheres":
+      {
+          "sphere1":
+          {
+          "point":[0, 0, -40],
+          "radius": 1,
+          "color: [red, green, blue]": [0, 0, 100],
+          "specular": 100,
+          "transperency": 0.,
+          "reflection": 0.,
+          },
+          "sphere2":
+              {
+              "point":[1, 0, -40],
+              "radius": 1,
+              "color: [red, green, blue]": [255, 255, 0],
+              "specular": -1,
+              "transperency": 0,
+              "reflection": 0,
+              }
+      },

@@ -1,0 +1,101 @@
+{
+"Cam":
+    {
+      "point": [0,0,-60],
+      "angle": [0,0,0]
+    },
+"Lights":
+        {
+        "light":
+            {
+            "type":"ambient",
+            "intensity": 0.1,
+            "point": [0,0,0],
+            "direction": [0, 0, 0]
+            },
+        "light1":
+            {
+             "type": "point",
+             "intensity": 0.3,
+             "point": [-5, 7, -60],
+             "direction": [0, 0, 0]
+            },
+        "light2":
+             {
+              "type": "direction",
+              "intensity": 0.2,
+              "point": [0, 0, 0],
+              "direction": [0, 1, 0]
+              },
+        "light3":
+               {
+               "type": "point",
+               "intensity": 0.4,
+               "point": [0, 3, -55],
+               "direction": [0, 0, 0]
+               }
+        },
+
+"Spheres":
+      {
+          "sphere1":
+          {
+          "point":[0, 1, -53],
+          "radius": 1.5,
+          "color: [red, green, blue]": [255, 0, 100],
+          "specular": 1000,
+          "transperency": 0,
+          "reflection": 0,
+            "texture":
+            {
+              "flag": 3,
+              "tex height": 4,
+              "tex wight": 4,
+              "path": 5
+            }
+
+          }
+      },
+  "Planes": {
+    "plane3": {
+      "point": [
+        0,
+        0,
+        10
+      ],
+      "rot": [
+        0,
+        0,
+        1
+      ],
+      "specular": -1,
+      "color: [red, green, blue]": [
+        200,
+        214,
+        250
+      ],
+      "reflection": 0,
+      "texture": {
+        "flag": 0,
+        "tex height": 20,
+        "tex wight": 30,
+        "path": 102
+      }
+    },
+    "plane2":
+    {
+      "point":[0, -1, 25],
+      "rot": [0, 1, 0],
+      "color: [red, green, blue]": [0, 100, 100],
+      "reflection": 0.5,
+      "specular":0,
+      "texture":
+      {
+        "flag": 3,
+        "tex height": 1,
+        "tex wight": 1,
+        "path": 101
+      }
+    }
+  }
+}

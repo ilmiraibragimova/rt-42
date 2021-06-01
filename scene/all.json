@@ -1,0 +1,584 @@
+{
+  "Cam": {
+    "point": [
+      -5,
+      5,
+      -20
+    ],
+    "angle": [
+      10,
+      10,
+      10
+    ]
+  },
+  "Lights": {
+    "light": {
+      "type": "ambient",
+      "intensity": 0.2,
+      "point": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    },
+    "light1": {
+      "type": "point",
+      "intensity": 0.8,
+      "point": [
+        0,
+        0,
+        -20
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "Cubes": {
+    "cube": {
+      "radius": 10,
+      "color: [red, green, blue]": [
+        255,
+        0,
+        100
+      ],
+      "specular": 1000,
+      "transperency": 0
+    }
+  },
+  "Spheres": {
+    "sphere": {
+      "point": [
+        0,
+        0,
+        0
+      ],
+      "radius": 1,
+      "color: [red, green, blue]": [
+        255,
+        0,
+        0
+      ],
+      "specular": 500,
+      "transperency": 0,
+      "reflection": 0,
+      "texture": {
+        "flag": 3,
+        "tex height": 8,
+        "tex wight": 8,
+        "path": 2
+      }
+    },
+    "sphere1": {
+      "point": [
+        0,
+        8,
+        28
+      ],
+      "radius": 1,
+      "color: [red, green, blue]": [
+        255,
+        0,
+        0
+      ],
+      "specular": 500,
+      "transperency": 0,
+      "reflection": 0,
+      "texture": {
+        "flag": 3,
+        "tex height": 8,
+        "tex wight": 8,
+        "path": 2
+      }
+    },
+    "sphere2": {
+      "point": [
+        0,
+        5,
+        26
+      ],
+      "radius": 1,
+      "color: [red, green, blue]": [
+        255,
+        0,
+        0
+      ],
+      "specular": 500,
+      "transperency": 0,
+      "reflection": 0,
+      "texture": {
+        "flag": 3,
+        "tex height": 8,
+        "tex wight": 8,
+        "path": 2
+      }
+    },
+    "sphere3": {
+      "point": [
+        0,
+        2,
+        22
+      ],
+      "radius": 1,
+      "color: [red, green, blue]": [
+        255,
+        0,
+        0
+      ],
+      "specular": 500,
+      "transperency": 0,
+      "reflection": 0,
+      "texture": {
+        "flag": 3,
+        "tex height": 8,
+        "tex wight": 8,
+        "path": 2
+      }
+    },
+    "sphere4": {
+      "point": [
+        -8,
+        2,
+        10
+      ],
+      "radius": 4,
+      "color: [red, green, blue]": [
+        0,
+        0,
+        0
+      ],
+      "specular": 1000,
+      "transperency": 0,
+      "reflection": 0,
+      "texture": {
+        "flag": 1,
+        "tex height": 40,
+        "tex wight": 20
+      }
+    }
+  },
+  "Planes": {
+    "plane": {
+      "point": [
+        0,
+        -3,
+        -25
+      ],
+      "rot": [
+        0,
+        1,
+        0
+      ],
+      "color: [red, green, blue]": [
+        0,
+        0,
+        255
+      ],
+      "reflection": 0,
+      "specular": -1,
+      "texture": {
+        "flag": 3,
+        "tex height": 1,
+        "tex wight": 1,
+        "path": 25
+      }
+    },
+    "plane1": {
+      "point": [
+        0,
+        0,
+        140
+      ],
+      "rot": [
+        0,
+        0,
+        1
+      ],
+      "color: [red, green, blue]": [
+        132,
+        0,
+        0
+      ],
+      "reflection": 0,
+      "specular": -1,
+      "texture": {
+        "flag": 0,
+        "tex height": 1,
+        "tex wight": 1,
+        "path": 25
+      }
+    }
+  },
+  "Paraboloid": {
+    "paraboloid": {
+      "point": [
+        0,
+        10,
+        30
+      ],
+      "normal1": [
+        0,
+        -1,
+        0
+      ],
+      "scale": 0.5,
+      "color: [red, green, blue]": [
+        255,
+        255,
+        255
+      ],
+      "texture": {
+        "flag": 1,
+        "tex height": 1,
+        "tex wight": 1,
+        "path": 3
+      }
+    }
+  },
+  "Cylinders": {
+    "cylinder": {
+      "point": [
+        20,
+        0,
+        30
+      ],
+      "radius": 2,
+      "rot": [
+        0,
+        -1,
+        0
+      ],
+      "max": 10,
+      "min": -1,
+      "color: [red, green, blue]": [
+        101,
+        67,
+        33
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "texture": {
+        "flag": 1,
+        "tex height": 2,
+        "tex wight": 2,
+        "path": 3
+      },
+      "is_limit": 1,
+      "size": 6,
+      "limit": [
+        0,
+        0,
+        0
+      ]
+    },
+    "cylinder1": {
+      "point": [
+        20,
+        5,
+        50
+      ],
+      "radius": 0.5,
+      "rot": [
+        1,
+        0,
+        0
+      ],
+      "max": INFINITY,
+      "min": -INFINITY,
+      "color: [red, green, blue]": [
+        0,
+        0,
+        0
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "texture": {
+        "flag": 0,
+        "tex height": 4,
+        "tex wight": 4,
+        "path": 3
+      },
+      "is_limit": 1,
+      "size": 6,
+      "limit": [
+        0,
+        0,
+        0
+      ]
+    },
+    "cylinder2": {
+      "point": [
+        20,
+        10,
+        50
+      ],
+      "radius": 0.5,
+      "rot": [
+        1,
+        0,
+        0
+      ],
+      "max": INFINITY,
+      "min": -INFINITY,
+      "color: [red, green, blue]": [
+        0,
+        0,
+        0
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "texture": {
+        "flag": 0,
+        "tex height": 4,
+        "tex wight": 4,
+        "path": 3
+      },
+      "is_limit": 1,
+      "size": 6,
+      "limit": [
+        0,
+        0,
+        0
+      ]
+    },
+    "cylinder3": {
+      "point": [
+        20,
+        15,
+        50
+      ],
+      "radius": 0.5,
+      "rot": [
+        1,
+        0,
+        0
+      ],
+      "max": INFINITY,
+      "min": -INFINITY,
+      "color: [red, green, blue]": [
+        0,
+        0,
+        0
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "texture": {
+        "flag": 0,
+        "tex height": 4,
+        "tex wight": 4,
+        "path": 3
+      },
+      "is_limit": 1,
+      "size": 6,
+      "limit": [
+        0,
+        0,
+        0
+      ]
+    },
+    "cylinder4": {
+      "point": [
+        20,
+        15,
+        80
+      ],
+      "radius": 0.5,
+      "rot": [
+        0,
+        1,
+        0
+      ],
+      "max": INFINITY,
+      "min": -INFINITY,
+      "color: [red, green, blue]": [
+        0,
+        0,
+        0
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "texture": {
+        "flag": 0,
+        "tex height": 4,
+        "tex wight": 4,
+        "path": 3
+      },
+      "is_limit": 1,
+      "size": 6,
+      "limit": [
+        0,
+        0,
+        0
+      ]
+    },
+    "cylinder5": {
+      "point": [
+        25,
+        15,
+        80
+      ],
+      "radius": 0.5,
+      "rot": [
+        0,
+        1,
+        0
+      ],
+      "max": INFINITY,
+      "min": -INFINITY,
+      "color: [red, green, blue]": [
+        0,
+        0,
+        0
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "texture": {
+        "flag": 0,
+        "tex height": 4,
+        "tex wight": 4,
+        "path": 3
+      },
+      "is_limit": 1,
+      "size": 6,
+      "limit": [
+        0,
+        0,
+        0
+      ]
+    },
+    "cylinder6": {
+      "point": [
+        30,
+        15,
+        80
+      ],
+      "radius": 0.5,
+      "rot": [
+        0,
+        1,
+        0
+      ],
+      "max": INFINITY,
+      "min": -INFINITY,
+      "color: [red, green, blue]": [
+        0,
+        0,
+        0
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "texture": {
+        "flag": 0,
+        "tex height": 4,
+        "tex wight": 4,
+        "path": 3
+      },
+      "is_limit": 1,
+      "size": 6,
+      "limit": [
+        0,
+        0,
+        0
+      ]
+    },
+    "cylinder7": {
+      "point": [
+        15,
+        15,
+        80
+      ],
+      "radius": 0.5,
+      "rot": [
+        0,
+        1,
+        0
+      ],
+      "max": INFINITY,
+      "min": -INFINITY,
+      "color: [red, green, blue]": [
+        0,
+        0,
+        0
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "texture": {
+        "flag": 0,
+        "tex height": 4,
+        "tex wight": 4,
+        "path": 3
+      },
+      "is_limit": 1,
+      "size": 6,
+      "limit": [
+        0,
+        0,
+        0
+      ]
+    },
+    "cylinder8": {
+      "point": [
+        10,
+        15,
+        80
+      ],
+      "radius": 0.5,
+      "rot": [
+        0,
+        1,
+        0
+      ],
+      "max": INFINITY,
+      "min": -INFINITY,
+      "color: [red, green, blue]": [
+        0,
+        0,
+        0
+      ],
+      "specular": 100,
+      "transperency": 0,
+      "texture": {
+        "flag": 0,
+        "tex height": 4,
+        "tex wight": 4,
+        "path": 3
+      },
+      "is_limit": 1,
+      "size": 6,
+      "limit": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "Torus": {
+    "torus": {
+      "point": [
+        20,
+        10,
+        50
+      ],
+      "rot": [
+        -1,
+        1,
+        0.8
+      ],
+      "color: [red, green, blue]": [
+        155,
+        200,
+        100
+      ],
+      "max": 10,
+      "min": 1,
+      "specular": 100
+    }
+  }
+}

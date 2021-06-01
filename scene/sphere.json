@@ -1,0 +1,68 @@
+{
+  "Cam": {
+    "point": [
+      0,
+      0,
+      0
+    ],
+    "angle": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Lights": {
+    "light": {
+      "type": "ambient",
+      "intensity": 0.2,
+      "point": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    },
+    "light1": {
+      "type": "point",
+      "intensity": 0.6,
+      "point": [
+        -40,
+        19,
+        -40
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "Spheres": {
+    "sphere": {
+      "point": [
+        0,
+        0,
+        5
+      ],
+      "radius": 1,
+      "color: [red, green, blue]": [
+        100,
+        100,
+        100
+      ],
+      "specular": 500,
+      "transperency": 0,
+      "reflection": 0,
+      "texture": {
+        "flag": 3,
+        "tex height": 8,
+        "tex wight": 8,
+        "path": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "Cam": {
+    "point": [
+      0,
+      2,
+      -20
+    ],
+    "angle": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Lights": {
+    "light": {
+      "type": "ambient",
+      "intensity": 0.2,
+      "point": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    },
+    "light1": {
+      "type": "point",
+      "intensity": 0.6,
+      "point": [
+        -40,
+        19,
+        -40
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "Paraboloid": {
+    "paraboloid": {
+      "point": [
+        0,
+        10,
+        30
+      ],
+      "normal1": [
+        0,
+        -1,
+        0
+      ],
+      "scale": 0.5,
+      "color: [red, green, blue]": [
+        255,
+        0,
+        255
+      ],
+      "texture": {
+        "flag": 1,
+        "tex height": 1,
+        "tex wight": 1,
+        "path": 3
+      }
+    }
+  }
+}

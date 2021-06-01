@@ -1,0 +1,74 @@
+{
+  "Cam": {
+    "point": [
+      0,
+      0,
+      -70
+    ],
+    "angle": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Lights": {
+    "light": {
+      "type": "ambient",
+      "intensity": 0.1,
+      "point": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    },
+    "light3": {
+      "type": "point",
+      "intensity": 0.8,
+      "point": [
+        2,
+        1,
+        -50
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "Cylinders": {
+    "cylinder": {
+      "point": [
+        -5,
+        0,
+        -30
+      ],
+      "radius": 2,
+      "rot": [
+        1,
+        0.5,
+        -0.5
+      ],
+      "color: [red, green, blue]": [
+        199,
+        255,
+        0],
+      "specular": 100,
+      "transperency": 0,
+      "max": INFINITY,
+      "min": -INFINITY,
+      "texture":
+      {
+        "flag": 3,
+        "tex height": 2,
+        "tex wight": 2,
+        "path" : 1
+      }
+    }
+  }
+}

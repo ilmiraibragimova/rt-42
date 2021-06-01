@@ -1,0 +1,284 @@
+{
+  "Cam": {
+    "point": [
+      0,
+      0,
+      -80
+    ],
+    "angle": [
+      0,
+      0,
+      10
+    ]
+  },
+  "Lights": {
+    "light": {
+      "type": "ambient",
+      "intensity": 0.2,
+      "point": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ]
+    },
+    "light1": {
+      "type": "point",
+      "intensity": 0.6,
+      "point": [
+        -40,
+        19,
+        -40
+      ],
+      "direction": [
+        0.,
+        0.,
+        0.
+      ]
+    }
+  },
+  "Spheres": {
+    "sphere2": {
+      "point": [
+        -8,
+        12,
+        42
+      ],
+      "radius": 12,
+      "color: [red, green, blue]": [
+        255,
+        255,
+        0
+      ],
+      "specular": 1000,
+      "transperency": 0,
+      "reflection": 0,
+      "texture": {
+        "flag": 2,
+        "tex height": 100,
+        "tex wight": 200
+      }
+    }
+  },
+  "Paraboloid": {
+    "paraboloid": {
+      "point": [
+        20,
+        20,
+        30
+      ],
+      "normal1": [
+        0,
+        -1,
+        0
+      ],
+      "scale": 0.5,
+      "color: [red, green, blue]": [
+        0,
+        255,
+        0
+      ],
+      "texture": {
+        "flag": 3,
+        "tex height": 100,
+        "tex wight": 200,
+        "path": 1
+      }
+    }
+  },
+  "Torus": {
+    "torus": {
+      "point": [
+        20,
+        -10,
+        30
+      ],
+      "rot": [
+        0,
+        1,
+        0.5
+      ],
+      "color: [red, green, blue]": [
+        255,
+        0,
+        0
+      ],
+      "max": 8,
+      "min": 6,
+      "specular": 1000,
+      "texture": {
+        "flag": 2,
+        "tex height": 100,
+        "tex wight": 200
+      }
+    },
+    "torus1": {
+      "point": [
+        20,
+        -22,
+        30
+      ],
+      "rot": [
+        0,
+        1,
+        0.5
+      ],
+      "color: [red, green, blue]": [
+        0,
+        0,
+        255
+      ],
+      "max": 10,
+      "min": 6,
+      "specular": 1000
+    },
+    "torus4": {
+      "point": [
+        -18,
+        -28,
+        30
+      ],
+      "rot": [
+        1,
+        0,
+        0
+      ],
+      "color: [red, green, blue]": [
+        0,
+        0,
+        255
+      ],
+      "max": 8,
+      "min": 3,
+      "specular": 1000
+    },
+    "torus7": {
+      "point": [
+        -18,
+        -10,
+        30
+      ],
+      "rot": [
+        1,
+        0,
+        0
+      ],
+      "color: [red, green, blue]": [
+        166,
+        0,
+        255
+      ],
+      "max": 8,
+      "min": 3,
+      "specular": 1000
+    },
+    "torus8": {
+      "point": [
+        -18,
+        -20,
+        30
+      ],
+      "rot": [
+        0,
+        0,
+        1
+      ],
+      "color: [red, green, blue]": [
+        0,
+        200,
+        43
+      ],
+      "max": 8,
+      "min": 3,
+      "specular": 100,
+      "transperency": 0.
+    },
+    "torus5": {
+      "point": [
+        -9,
+        -18,
+        30
+      ],
+      "rot": [
+        0,
+        1,
+        -0.3
+      ],
+      "color: [red, green, blue]": [
+        0,
+        199,
+        188
+      ],
+      "max": 8,
+      "min": 3,
+      "specular": 1000
+    },
+    "torus6": {
+      "point": [
+        -26,
+        -18,
+        30
+      ],
+      "rot": [
+        0,
+        -1,
+        0.3
+      ],
+      "color: [red, green, blue]": [
+        200,
+        100,
+        0
+      ],
+      "max": 8,
+      "min": 3,
+      "specular": 100,
+      "transperency": 0
+    },
+    "torus10": {
+      "point": [
+        -8,
+        12,
+        42
+      ],
+      "rot": [
+        0,
+        -1,
+        0.3
+      ],
+      "color: [red, green, blue]": [
+        200,
+        200,
+        0
+      ],
+      "max": 15,
+      "min": 2,
+      "specular": 100,
+      "transperency": 0
+    }
+  },
+  "Planes": {
+    "plane3": {
+      "point": [
+        0,
+        0,
+        60
+      ],
+      "rot": [
+        0,
+        0,
+        1
+      ],
+      "specular": -1,
+      "color: [red, green, blue]": [
+        255,
+        0,
+        250
+      ],
+      "reflection": 0
+    }
+  }
+}

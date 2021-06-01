@@ -1,0 +1,12 @@
+prefix=/Users/ilmira/.brew
+exec_prefix=/Users/ilmira/.brew
+libdir=/Users/ilmira/.brew/lib
+includedir=/Users/ilmira/.brew/include
+
+Name: json-c
+Description: A JSON implementation in C
+Version: 0.15.99
+Requires:
+Libs.private: 
+Libs: -L${libdir} -ljson-c
+Cflags: -I${includedir} -I${includedir}/json-c
